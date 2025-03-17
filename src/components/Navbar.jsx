@@ -1,5 +1,7 @@
-function App() {
-  return (
+
+
+function Navbar() {
+    return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation Bar */}
       <nav className="bg-white shadow-lg">
@@ -8,7 +10,7 @@ function App() {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
               <img 
-                src="/images/Aamusted logo (2).png" 
+                src="../../public/assets/images/Aamusted logo (2).png" 
                 alt="AAMUSTED Logo" 
                 className="h-12 w-auto object-contain"
               />
@@ -58,7 +60,7 @@ function App() {
         {/* Your main content will go here */}
       </main>
     </div>
-  )
+    )
 }
 
-export default App
+export default Navbar;
