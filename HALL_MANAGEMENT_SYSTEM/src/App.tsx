@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation Bar */}
-      <nav className="bg-white shadow-lg p-5">
+      <nav className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             {/* Logo */}
@@ -10,22 +10,22 @@ function App() {
               <img 
                 src="/images/Aamusted logo (2).png" 
                 alt="AAMUSTED Logo" 
-                className="h-16 w-auto"
+                className="h-12 w-auto object-contain"
               />
             </div>
 
             {/* Center Menu Items */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-lg font-medium">About</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-lg font-medium">Reservation</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-lg font-medium">Compliant Desk</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-lg font-medium">Payment</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-lg font-medium">Contact</a>
+              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
+              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Compliant Desk</a>
+              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
+              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
 
             {/* Register Button */}
             <div className="flex items-center">
-              <button className="bg-[#900633] text-white px-6 py-2 rounded-md text-lg font-medium hover:bg-[#7a0529] transition-colors duration-200">
+              <button className="bg-[#900633] text-white px-6 py-2 rounded-md text-sm font-medium hover:bg-[#7a0529] transition-colors duration-200">
                 Register Now
               </button>
             </div>
