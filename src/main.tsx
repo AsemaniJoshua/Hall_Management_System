@@ -2,14 +2,18 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './pages/Home.tsx'
-import { BrowserRouter } from 'react-router-dom'
-import Contact from './components/Contact/Contact.tsx'
-import Payment_Confirmation from './components/Payment_Confirmation/Payment_Confirmation.tsx'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import PaymentCreditCard from './pages/PaymentCreditCard.tsx'
+import ContactPage from './pages/Contact.tsx'
+import PaymentConfirmationPage from './pages/Payment_Confirmation.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
-    {/* <Home /> */}
-    {/* <Contact /> */}
-    <Payment_Confirmation />
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/creditcard" element={<PaymentCreditCard/>}/>
+      <Route path="/contact" element={<ContactPage/>}/>
+      <Route path="/paymentconfirmation" element={<PaymentConfirmationPage/>}/>
+    </Routes>
   </BrowserRouter>,
 )

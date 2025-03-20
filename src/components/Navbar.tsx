@@ -3,7 +3,7 @@ import logo from '../../public/assets/images/Aamusted logo (2).png'
 
 const Navbar: FC = () => {
     return (
-    <div className="min-h-screen bg-gray-50">
+    <div className=" bg-gray-50">
       {/* Navigation Bar */}
       <nav className="bg-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,10 +19,10 @@ const Navbar: FC = () => {
 
             {/* Center Menu Items */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
+              <a href="/" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="/roomreserve" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
               <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Compliant Desk</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
+              <a href="/creditcard" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
               <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
 
@@ -55,11 +55,6 @@ const Navbar: FC = () => {
           </div>
         </div>
       </nav>
-
-      {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        {/* Your main content will go here */}
-      </main>
     </div>
     )
 }

@@ -3,12 +3,13 @@ import checkmark from '../../../public/assets/images/checkmark.png'
 import appstore from '../../../public/assets/images/App_Store.png'
 import googleplay from '../../../public/assets/images/Google_Play.png'
 import { Link } from "react-router-dom";
+import NavInfo from "../NavInfo.tsx";
 
 function Payment_Confirmation() {
     return (
         <>
             <Navbar />
-
+            <NavInfo title="Payment Confirmation" />
             <section className="my-[40px] ml-[100px] mr-[150px] font-Inter bg-white">
                 
                 <div className="bg-[#FBFBFB] mb-[50px] p-[30px]">
