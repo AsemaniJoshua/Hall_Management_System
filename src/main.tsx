@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import PaymentCreditCard from './pages/PaymentCreditCard.tsx'
 import ContactPage from './pages/Contact.tsx'
 import PaymentConfirmationPage from './pages/Payment_Confirmation.tsx'
+import ComplaintPage from './pages/Complaint.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')!).render(
       <Route path="/creditcard" element={<PaymentCreditCard/>}/>
       <Route path="/contact" element={<ContactPage/>}/>
       <Route path="/paymentconfirmation" element={<PaymentConfirmationPage/>}/>
+      <Route path="/complaint" element={<ComplaintPage/>}/>
     </Routes>
-  </BrowserRouter>,
+  </BrowserRouter>
 )
