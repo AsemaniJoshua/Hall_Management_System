@@ -18,10 +18,10 @@ const Navbar: FC = () => {
 
             {/* Center Menu Items */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
+              <a href="/" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
+              <a href="/roomreserve" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
               <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Compliant Desk</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
+              <a href="/creditcard" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
               <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Contact</a>
             </div>
 
