@@ -10,6 +10,9 @@ import AppsInfo from './components/reservation/Applicants_Info/appsInfo.tsx'
 import Modal from './components/Modal.tsx'
 import ReservationConfirm from './pages/ReservationConfirm.tsx'
 import RoomReservation from './pages/RoomReservation.tsx'
+import Contact from './components/Contact/Contact.tsx'
+import Complaint from './components/Complaint/Complaint.tsx'
+import Payment_Confirmation from './components/Payment_Confirmation/Payment_Confirmation.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -23,6 +26,9 @@ createRoot(document.getElementById('root')!).render(
       <Route path='/reservationconfirm' element={<ReservationConfirm/>}/>
       <Route path='/payment' element={<PaymentCreditCard/>}/>
       <Route path='/later' element={<RoomReservation/>}/>
+      <Route path='/contactUs' element={<Contact/>}/>
+      <Route path='/complaint' element={<Complaint/>}/>
+      <Route path='/paymentConfirm' element={<Payment_Confirmation/>}/>
     </Routes>
   </BrowserRouter>
 )

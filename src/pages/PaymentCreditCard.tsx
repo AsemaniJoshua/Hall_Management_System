@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import NavInfo from "../components/NavInfo";
+import { Link } from "react-router-dom";
 
 export default function PaymentCreditCard() {
   return (
@@ -81,11 +82,13 @@ export default function PaymentCreditCard() {
             </div>
 
             <div className="flex items-center justify-center text-center py-5">
+              <Link to="/paymentConfirm">
               <input
                 type="submit"
                 className="py-3 px-10 bg-[#900633] text-white text-[22px] rounded-lg cursor-pointer"
                 value="Make Payment"
               />
+              </Link>
             </div>
           </form>
         </div>
