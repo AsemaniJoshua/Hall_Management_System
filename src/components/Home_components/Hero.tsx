@@ -1,4 +1,6 @@
-
+import guestRoom from '../../../public/assets/icons/mdi_guest-room-outline.png'
+import smart from '../../../public/assets/icons/arcticons_sob-smart.png'
+import innovative from '../../../public/assets/icons/Vector.png'
 
 
 export default function Hero() {
@@ -9,19 +11,19 @@ export default function Hero() {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-20">
         <div className="flex flex-col items-center justify-center gap-4 bg-[#0D0F0BB2] rounded-[25px] w-[298px] h-[185px]">
-          <img src="../../../public/assets/icons/mdi_guest-room-outline.png" alt="" />
+          <img src={guestRoom} alt="Guest Room Icon" />
           <h2 className="text-white text-xl font-bold">Effortless Room Booking</h2>
           <p className="text-white text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum nec libero nec justo tincidunt feugiat.</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4 bg-[#0D0F0BB2] rounded-[25px] w-[298px] h-[185px]">
-         <img src="../../../public/assets/icons/arcticons_sob-smart.png" alt="" />
+         <img src={smart} alt="Smart Icon" />
           <h2 className="text-white text-xl font-bold">Seamless Management</h2>
           <p className="text-white text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum nec libero nec justo tincidunt feugiat.</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4 bg-[#0D0F0BB2] rounded-[25px] w-[298px] h-[185px]">
-        <img src="../../../public/assets/icons/Vector.png" alt="" />
+        <img src={innovative} alt="Innovative Icon" />
           <h2 className="text-white text-xl font-bold">Innovative Students Living</h2>
           <p className="text-white text-sm text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Vestibulum nec libero nec justo tincidunt feugiat.</p>
         </div>
