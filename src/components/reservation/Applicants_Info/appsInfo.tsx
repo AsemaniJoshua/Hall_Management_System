@@ -1,7 +1,13 @@
-export default function appsInfo(){
+import Navbar from "../../Navbar";
+import NavInfo from "../../NavInfo";
+
+export default function AppsInfo(){
     return(
-        <section className="mt-20">
-        <div className=" bg-gray-200 shadow-lg rounded-lg p-6">
+        <>
+       <Navbar/>
+      <NavInfo title="Reservation"/>
+        <section className="mt-5">
+        <div className="shadow-lg rounded-lg p-6">
             <h2 className="text-xl font-bold border-b pb-2 mb-4">Applicant’s Information</h2>
             <hr />
             
@@ -73,12 +79,15 @@ export default function appsInfo(){
             </div>
         
             <div className="text-center mt-6">
-                <button className="bg-[#800040] text-white px-6 py-2 rounded-md hover:bg-[#660033] transition">
+               <a href="/bookroom">
+               <button className="bg-[#800040] text-white px-6 py-2 rounded-md hover:bg-[#660033] transition">
                     Next
                 </button>
+               </a>
             </div>
         </div>
         
     </section>
+    </>
     )
   }

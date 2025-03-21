@@ -31,7 +31,7 @@ export default function Instruction(){
                 </div>
             
                 <div className="text-center">
-                   <a href="/bookroom">
+                   <a href="/applicantInfo">
                    <button className="mt-6 bg-[#800040] text-white px-6 py-2 rounded-md hover:bg-[#660033] transition duration-300">
                         Next
                     </button>

@@ -796,9 +796,12 @@ export default function BookRoom() {
         confirm your booking.
       </p>
       <div className="flex justify-center py-10">
+        <a href="/popup">
         <button className="mt-4 bg-[#900633] text-white px-16 py-3 rounded-md">
           Submit
         </button>
+        </a>
+        
       </div>
     </section>
    </>

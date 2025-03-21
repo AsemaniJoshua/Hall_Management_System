@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import logo from '../../public/assets/images/Aamusted logo (2).png'
 
 const Navbar: FC = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar: FC = () => {
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
               <img 
-                src="../../public/assets/images/Aamusted logo (2).png" 
+                src={logo} 
                 alt="AAMUSTED Logo" 
                 className="h-12 w-auto object-contain"
               />
