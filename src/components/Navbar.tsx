@@ -1,13 +1,14 @@
 import { FC } from 'react';
 import logo from '../../public/assets/images/Aamusted logo (2).png'
+import { Link } from 'react-router-dom';
 
 const Navbar: FC = () => {
     return (
     <div className=" bg-gray-50">
       {/* Navigation Bar */}
       <nav className="bg-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between h-20">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center">
               <img 
@@ -18,12 +19,12 @@ const Navbar: FC = () => {
             </div>
 
             {/* Center Menu Items */}
-            <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">About</a>
-              <a href="/reservation" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Reservation</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Compliant Desk</a>
-              <a href="/creditcard" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Payment</a>
-              <a href="#" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+            <div className="hidden md:flex items-center space-x-8 text-xl">
+              <Link to="/" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md font-medium">About</Link>
+              <Link to="/reservation" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md font-medium">Reservation</Link>
+              <Link to="/complaint" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md  font-medium">Compliant Desk</Link>
+              <Link to="/creditcard" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md font-medium">Payment</Link>
+              <Link to="/contactUs" className="text-gray-700 hover:text-[#900633] px-3 py-2 rounded-md font-medium">Contact</Link>
             </div>
 
             {/* Register Button */}

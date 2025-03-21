@@ -1,5 +1,5 @@
-import Navbar from "../Navbar";
-import checkmark from '../../../public/assets/images/checkmark.png'
+import Navbar from "../Navbar.tsx";
+import checkmark from '../../../public/assets/images/CheckMark.png'
 import appstore from '../../../public/assets/images/App_Store.png'
 import googleplay from '../../../public/assets/images/Google_Play.png'
 import { Link } from "react-router-dom";
