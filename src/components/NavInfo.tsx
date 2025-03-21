@@ -1,6 +1,6 @@
 
 
-export default function NavInfo({title}){
+export default function NavInfo({title}:{title:string}){
   return(
     <section className="bg-[#900633] px-10 py-1 flex items-center justify-between">
       <h1 className="text-[24px] text-white font-[600]">{title}</h1>
