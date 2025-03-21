@@ -1,4 +1,4 @@
-import BookRoom from "../components/reservation/Book_Room/BookRoom";
+import BookRoom from "../components/reservation/Book_Room/bookRoom.tsx";
 function bookRoomInfo() {
     return (
         <>
