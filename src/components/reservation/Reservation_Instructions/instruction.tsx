@@ -1,6 +1,12 @@
-export default function instruction(){
+import Navbar from "../../Navbar";
+import NavInfo from "../../NavInfo";
+
+export default function Instruction(){
     return(
-        <section className="mt-20">
+       <>
+       <Navbar/>
+       <NavInfo title="Reservation"/>
+        <section className="mt-5 px-20">
             <div className="text-2xl p-6 bg-white">
                 <h2 className="mb-4">Room Reservation Instructions</h2>
                 <ul className="list-disc pl-6 space-y-2">
@@ -25,11 +31,14 @@ export default function instruction(){
                 </div>
             
                 <div className="text-center">
-                    <button className="mt-6 bg-[#800040] text-white px-6 py-2 rounded-md hover:bg-[#660033] transition duration-300">
+                   <a href="/bookroom">
+                   <button className="mt-6 bg-[#800040] text-white px-6 py-2 rounded-md hover:bg-[#660033] transition duration-300">
                         Next
                     </button>
+                   </a>
                 </div>
             </div>
         </section>
+       </>
     )
 }

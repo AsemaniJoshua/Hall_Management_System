@@ -1,4 +1,4 @@
-import Instruction from "../components/reservation/Reservation_Instructions/instruction";
+import Instruction from "../components/reservation/Reservation_Instructions/Instruction";
 function instructionInfo() {
     return (
         <>
