@@ -1,4 +1,4 @@
-import Instruction from "../components/reservation/Reservation_Instructions/Instruction";
+import Instruction from "../components/reservation/Reservation_Instructions/instruction.tsx";
 function instructionInfo() {
     return (
         <>
